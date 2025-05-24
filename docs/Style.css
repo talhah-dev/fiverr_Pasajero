@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Open Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.Montserrat {
+    font-family: "Montserrat", sans-serif;
+}
+
+img,
+button,
+iframe,
+a {
+    user-select: none;
+}
+
+.fadeIn {
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.myShadow {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+input:user-invalid {
+    border: 1.5px solid rgba(255, 0, 0, 0.416);
+}
+
+.homeBanner {
+    background: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.63)), url(./assets/images/banner.jpg) center/cover no-repeat;
+}
