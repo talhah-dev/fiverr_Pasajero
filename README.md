@@ -1,70 +1,70 @@
 # 🚍 Pasajero
 
-**Tecnología humana para el transporte público**  
-Explora rutas, visualiza unidades y toma el control de tu trayecto.
+**Human-centered technology for public transportation**  
+Explore routes, view transit units, and take control of your journey.
 
 ---
 
-## 📱 ¿Qué es Pasajero?
+## 📱 What is Pasajero?
 
-**Pasajero** es la primera plataforma digital diseñada para organizar, visualizar y mejorar el acceso al transporte público informal en ciudades como Tijuana. A través de una aplicación intuitiva y colaborativa, Pasajero permite a los usuarios:
+**Pasajero** is the first digital platform designed to organize, visualize, and improve access to informal public transportation in cities like Tijuana. Through an intuitive and collaborative app, Pasajero empowers users to:
 
-- Buscar rutas cercanas en un mapa interactivo.
-- Identificar unidades por color y tipo de vehículo.
-- Estimar tiempos de llegada.
-- Registrar su abordaje con un solo clic.
-
----
-
-## 🔧 Funcionalidades principales
-
-- 🗺️ Visualización de rutas en tiempo real.
-- 🚐 Identificación de unidades (color, tipo).
-- ⏱️ Estimación de llegada basada en comunidad.
-- 🖱️ Registro voluntario del viaje.
-- 📣 Participación en pruebas y desarrollo colaborativo.
+- Search for nearby routes on an interactive map.
+- Identify vehicles by color and type.
+- Get estimated arrival times.
+- Register their ride with a single click.
 
 ---
 
-## 🌐 Sitio web
+## 🔧 Key Features
 
-Accede a la plataforma en [https://pasajeroapp.com](https://pasajeroapp.com)
+- 🗺️ Real-time route visualization.
+- 🚐 Vehicle identification by type and color.
+- ⏱️ Community-powered time estimation.
+- 🖱️ One-click voluntary ride logging.
+- 📣 Participate in beta testing and help shape the platform.
 
 ---
 
-## 🖼️ Imágenes
+## 🌐 Website
+
+Visit the platform at [https://pasajeroapp.com](https://pasajeroapp.com)
+
+---
+
+## 🖼️ Assets
 
 - Favicon: `/docs/assets/images/favicon.png`
-- Imagen para redes sociales: `/assets/images/og-image.jpg` (recomendada 1200x630px)
+- Social sharing image: `/assets/images/og-image.jpg` (Recommended size: 1200x630px)
 
 ---
 
-## 📥 Participación del usuario
+## 📥 User Participation
 
-El sitio web incluye un formulario donde los usuarios pueden:
+The website includes a sign-up form that allows users to:
 
-- Dejar su nombre y correo electrónico.
-- Indicar su colonia o zona.
-- Participar en pruebas beta de la app.
-- Expresar lo más importante para su experiencia de transporte.
-
----
-
-## 🧾 Licencia
-
-© 2025 Pasajero. Todos los derechos reservados.
+- Submit their name and email address.
+- Specify their neighborhood or area.
+- Join app testing initiatives.
+- Share what features are most important to them (e.g. real-time tracking, pricing, nearby routes).
 
 ---
 
-## 💡 Crédits
+## 🧾 License
 
-Diseñado y desarrollado por el equipo de **Pasajero** con el objetivo de revolucionar el transporte informal urbano.
+© 2025 Pasajero. All rights reserved.
 
 ---
 
-## 📩 Contacto
+## 💡 Credits
 
-¿Tienes dudas o deseas colaborar?  
-Envíanos un correo a: [info@pasajeroapp.com](mailto:info@pasajeroapp.com)
+Designed and developed by the **Pasajero** team with the goal of revolutionizing urban informal transportation access.
+
+---
+
+## 📩 Contact
+
+Have questions or want to collaborate?  
+Reach out to us at: [info@pasajeroapp.com](mailto:info@pasajeroapp.com)
 
 ---
