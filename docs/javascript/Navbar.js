@@ -4,7 +4,7 @@ navbar.innerHTML = `
     <nav class="fixed top-0 left-0 w-full bg-black z-40">
         <div class="max-w-7xl mx-auto flex justify-between items-center w-full md:p-5 p-3 md:h-24 h-20">
             <a data-aos="fade-right" href="./index.html" class="flex justify-center lg:justify-start">
-                <img src="./docs/assets/images/logo.png" class="md:h-20 h-16" alt="logo">
+                <img src="./docs/assets/images/logo-name.jpg" class="md:h-20 h-16" alt="logo">
             </a>
             <div class="flex items-center gap-10">
                 <div class="md:flex items-center gap-10 hidden">
@@ -53,7 +53,7 @@ navbar.innerHTML = `
                 <li><a href="#about"
                         class="hover:text-[#f5e474] mobileMenuCloseBtn text-nowrap transition-all duration-500">About</a>
                 </li>
-                <li><a href="#feature"
+                <li><a href="#features"
                         class="hover:text-[#f5e474] mobileMenuCloseBtn text-nowrap transition-all duration-500">Features</a>
                 </li>
             </ul>
