@@ -5,7 +5,8 @@ navbar.innerHTML = `
         <div class="max-w-7xl mx-auto flex justify-between items-center w-full md:p-5 p-3 md:h-24 h-20">
             <a data-aos="fade-right" href="./index.html" class="flex items-center justify-center lg:justify-start">
             <img src="./docs/assets/images/logo.png" class="md:h-20 h-16" alt="logo">
-                <img src="./docs/assets/images/logo-name.jpg" class="md:h-16 h-12" alt="logo">
+
+                <img src="./docs/assets/images/logo-name-removebg-preview.png" class="md:h-16 h-12 invert" alt="logo">
             </a>
             <div class="flex items-center gap-10">
                 <div class="md:flex items-center gap-10 hidden">
