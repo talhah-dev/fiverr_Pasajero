@@ -18,19 +18,19 @@ footer.innerHTML = `
                             class=" text-gray-800 hover:opacity-80 transition-all duration-500">Contact Us</a></li>
                 </ul>
                 <div data-aos="fade-up" class="flex items-center justify-center text-zinc-600 text-2xl gap-8 mt-7">
-                    <a href="">
+                    <a href="https://www.instagram.com/pasajeroapp?utm_source=qr&igsh=MTNvcjJ6ejVxYzhhcA==">
                         <i class="fa-brands transition-all duration-500 hover:text-black fa-instagram"></i>
                     </a>
-                    <a href="">
+                    <a href="https://www.facebook.com/share/16ctJy7yR9/">
                         <i class="fa-brands transition-all duration-500 hover:text-black fa-facebook-f"></i>
                     </a>
-                    <a href="">
+                    <a href="https://x.com/Pasajeroapp?t=HbRuOJ5KwVgeiUCfM-qhLQ&s=09">
                         <i class="fa-brands transition-all duration-500 hover:text-black fa-x-twitter"></i>
                     </a>
-                    <a href="">
+                    <a href="https://www.tiktok.com/@pasajeroapp?_t=ZS-8yOCL4HeKLH&_r=1">
                         <i class="fa-brands transition-all duration-500 hover:text-black fa-tiktok"></i>
                     </a>
-                    <a href="">
+                    <a href="https://youtube.com/@pasajeroapp?feature=shared">
                         <i class="fa-brands transition-all duration-500 hover:text-black fa-youtube"></i>
                     </a>
                     </div>
