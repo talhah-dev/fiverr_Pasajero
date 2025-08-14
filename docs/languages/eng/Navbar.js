@@ -4,9 +4,9 @@ navbar.innerHTML = `
     <nav class="fixed top-0 left-0 w-full bg-black z-40">
         <div class="max-w-7xl mx-auto flex justify-between items-center w-full md:p-5 p-3 md:h-24 h-20">
             <a data-aos="fade-right" href="./index.html" class="flex items-center justify-center lg:justify-start">
-            <img src="./docs/assets/images/logo.png" class="md:h-20 h-16" alt="logo">
+            <img src="/docs/assets/images/logo.png" class="md:h-20 h-16" alt="logo">
 
-                <img src="./docs/assets/images/logo-name-removebg-preview.png" class="md:h-16 h-12 invert" alt="logo">
+                <img src="/docs/assets/images/logo-name-removebg-preview.png" class="md:h-16 h-12 invert" alt="logo">
             </a>
             <div class="flex items-center gap-10">
                 <div data-aos="fade-left" class="md:flex items-center gap-10 hidden">
@@ -22,9 +22,9 @@ navbar.innerHTML = `
                     </ul>
                 </div>
                     <div data-aos="fade-left" class="md:flex hidden items-center justify-center gap-2 relative">
-                        <div id="language" class="cursor-pointer flex text-zinc-300 items-center gap-1">
-                            <i class="fa-solid fa-globe text-zinc-300 text-2xl"></i>
-                            <span class="font-medium uppercase">ES</span>
+                        <div id="language" class="cursor-pointer flex text-[#f5e474] items-center gap-1">
+                            <i class="fa-solid fa-globe text-[#f5e474] text-2xl"></i>
+                            <span class="font-medium uppercase">EN</span>
                         </div>
 
                         <div id="langDropdown" class="absolute fadeIn top-8 w-20 -left-2 bg-black text-zinc-300 p-3 rounded-xl shadow-md hidden">

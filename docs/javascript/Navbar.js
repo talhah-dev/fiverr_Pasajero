@@ -22,8 +22,8 @@ navbar.innerHTML = `
                     </ul>
                 </div>
                     <div data-aos="fade-left" class="md:flex hidden items-center justify-center gap-2 relative">
-                        <div id="language" class="cursor-pointer flex text-zinc-300 items-center gap-1">
-                            <i class="fa-solid fa-globe text-zinc-300 text-2xl"></i>
+                        <div id="language" class="cursor-pointer flex text-[#f5e474] items-center gap-1">
+                            <i class="fa-solid fa-globe text-[#f5e474] text-2xl"></i>
                             <span class="font-medium uppercase">ES</span>
                         </div>
 
