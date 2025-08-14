@@ -11,12 +11,12 @@ navbar.innerHTML = `
             <div class="flex items-center gap-10">
                 <div data-aos="fade-left" class="md:flex items-center gap-10 hidden">
                     <ul  class="md:flex hidden items-center text-zinc-300 gap-10">
-                        <li><a href="./index.html" class="hover:text-[#f5e474] transition-all duration-500">Hogar </a>
+                        <li><a href="./index.html" class="hover:text-[#f5e474] transition-all duration-500">Home </a>
                         </li>
-                        <li><a href="#about" class="hover:text-[#f5e474] transition-all duration-500">Acerca de
+                        <li><a href="#about" class="hover:text-[#f5e474] transition-all duration-500">About
                             </a>
                         </li>
-                        <li><a href="#features" class="hover:text-[#f5e474] transition-all duration-500">Características
+                        <li><a href="#features" class="hover:text-[#f5e474] transition-all duration-500">Features
                             </a>
                         </li>
                     </ul>
@@ -38,7 +38,7 @@ navbar.innerHTML = `
                     </div>
                 <a data-aos="fade-left" href="#contact"
                     class="relative cursor-pointer py-4 px-8 text-center md:inline-flex hidden justify-center text-base uppercase text-zinc-300 rounded-lg border-solid transition-transform duration-300 ease-in-out group outline-offset-4 focus:outline focus:outline-2 focus:outline-white focus:outline-offset-4 overflow-hidden">
-                    <span class="relative z-20">Contacto</span>
+                    <span class="relative z-20">Contact Us</span>
                     <span
                         class="absolute left-[-75%] top-0 h-full w-[50%] bg-white/20 rotate-12 z-10 blur-lg group-hover:left-[125%] transition-all duration-1000 ease-in-out"></span>
 
@@ -65,13 +65,13 @@ navbar.innerHTML = `
         <div class="p-6">
             <ul class="flex relative z-50 text-gray-300 flex-col gap-7">
                 <li><a href="./index.html"
-                        class="hover:text-[#f5e474] mobileMenuCloseBtn text-nowrap transition-all duration-500">Hogar</a>
+                        class="hover:text-[#f5e474] mobileMenuCloseBtn text-nowrap transition-all duration-500">Home</a>
                 </li>
                 <li><a href="#about"
-                        class="hover:text-[#f5e474] text-nowrap mobileMenuCloseBtn text-nowrap transition-all duration-500">Acerca de</a>
+                        class="hover:text-[#f5e474] mobileMenuCloseBtn text-nowrap transition-all duration-500">About</a>
                 </li>
                 <li><a href="#features"
-                        class="hover:text-[#f5e474] mobileMenuCloseBtn text-nowrap transition-all duration-500">Características</a>
+                        class="hover:text-[#f5e474] mobileMenuCloseBtn text-nowrap transition-all duration-500">Features</a>
                 </li>
             </ul>
                 <ul class="grid grid-cols-2 relative z-50 text-gray-300 font-medium uppercase w-full text-center mt-5 gap-3">
@@ -84,7 +84,8 @@ navbar.innerHTML = `
         </li>
     </ul>
             <a href="#contact"
-                class="text-center block mobileMenuCloseBtn w-full p-3 border text-gray-300 text-nowrap border-zinc-700 mt-5 rounded-lg cursor-pointer">Contacto</a>
+                class="text-center block mobileMenuCloseBtn w-full p-3 border text-gray-300 text-nowrap border-zinc-700 mt-5 rounded-lg cursor-pointer">Contact
+                us</a>
         </div>
     </div>
     <div class="md:h-24 h-20"></div>

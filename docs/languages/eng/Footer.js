@@ -9,13 +9,13 @@ footer.innerHTML = `
                 <ul data-aos="fade-up"
                     class="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 pt-12 ">
                     <li><a href="index.html"
-                            class="text-gray-800 hover:opacity-80 transition-all duration-500">Hogar</a></li>
+                            class="text-gray-800 hover:opacity-80 transition-all duration-500">Home</a></li>
                     <li><a href="#about"
-                            class=" text-gray-800 hover:opacity-80 transition-all duration-500">Acerca de</a></li>
+                            class=" text-gray-800 hover:opacity-80 transition-all duration-500">About</a></li>
                     <li><a href="#feature"
-                            class=" text-gray-800 hover:opacity-80 transition-all duration-500">Características</a></li>
+                            class=" text-gray-800 hover:opacity-80 transition-all duration-500">Feature</a></li>
                     <li><a href="#contact"
-                            class=" text-gray-800 hover:opacity-80 transition-all duration-500">Contacto</a></li>
+                            class=" text-gray-800 hover:opacity-80 transition-all duration-500">Contact Us</a></li>
                 </ul>
                 <div data-aos="fade-up" class="flex items-center justify-center text-zinc-600 text-2xl gap-8 mt-7">
                     <a href="https://www.instagram.com/pasajeroapp?utm_source=qr&igsh=MTNvcjJ6ejVxYzhhcA==">
