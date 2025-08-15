@@ -21,21 +21,33 @@ navbar.innerHTML = `
                         </li>
                     </ul>
                 </div>
-                    <div data-aos="fade-left" class="md:flex hidden items-center justify-center gap-2 relative">
-                        <div id="language" class="cursor-pointer flex text-[#f5e474] items-center gap-1">
-                            <i class="fa-solid fa-globe text-[#f5e474] text-2xl"></i>
-                            <span class="font-medium uppercase">ES</span>
-                        </div>
-
-                        <div id="langDropdown" class="absolute fadeIn top-8 w-20 -left-2 bg-black text-zinc-300 p-3 rounded-xl shadow-md hidden">
-                            <ul class="space-y-3">
-                                <li class="cursor-pointer hover:opacity-60 transition-all duration-500"><a
-                                        href="/index.html" class="block w-full">ES</a></li>
-                                <li class="cursor-pointer hover:opacity-60 transition-all duration-500"><a href="/docs/languages/eng/index.html"
-                                        class="block w-full">EN</a></li>
-                            </ul>
-                        </div>
+                <div data-aos="fade-left" class="md:flex hidden items-center justify-center gap-2 relative">
+                    <!-- Language Selector (Default: Spanish / Mexico) -->
+                    <div id="language" class="cursor-pointer flex text-zinc-200 items-center gap-1.5">
+                        <span class="fi fi-mx w-5 h-5 rounded-sm"></span>
+                        <span class="font-medium uppercase">ES</span>
                     </div>
+
+                    <!-- Dropdown -->
+                    <div id="langDropdown" class="absolute fadeIn top-8 w-28 -left-2 bg-black text-zinc-300 p-3 rounded-xl shadow-md hidden">
+                        <ul class="space-y-3">
+                            <li class="cursor-pointer hover:opacity-60 transition-all duration-500 flex items-center gap-2">
+                            <a href="/index.html" class="block">
+                            <span class="fi fi-mx w-5 h-5 rounded-sm"></span>
+                                ES
+                                </a>
+                            </li>
+                            <li class="cursor-pointer hover:opacity-60 transition-all duration-500 flex items-center gap-2">
+                            <a href="/docs/languages/eng/index.html" class="block">
+                            <span class="fi fi-us w-5 h-5 rounded-sm"></span>
+                                EN
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
                 <a data-aos="fade-left" href="#contact"
                     class="relative cursor-pointer py-4 px-8 text-center md:inline-flex hidden justify-center text-base uppercase text-zinc-300 rounded-lg border-solid transition-transform duration-300 ease-in-out group outline-offset-4 focus:outline focus:outline-2 focus:outline-white focus:outline-offset-4 overflow-hidden">
                     <span class="relative z-20">Contacto</span>
