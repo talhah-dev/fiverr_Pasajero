@@ -43,7 +43,7 @@ footer.innerHTML = `
                 <div class="border-t md:flex-row flex-col gap-5 border-gray-200 pt-5 flex items-center justify-between mt-8">
                     <span class="text-lg text-gray-500 text-center block">© <span id="copyright"></span> Pasajero. Todos los derechos
                         reservados.</span>
-                        <a href="#" class="text-gray-500 underline hover:opacity-80 transition-all">Privacy policy</a>
+                        <a href="/docs/languages/eng/privacy-policy.html" class="text-gray-500 underline hover:opacity-80 transition-all">Privacy policy</a>
                 </div>
             </div>
         </div>

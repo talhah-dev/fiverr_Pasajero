@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasajero | Rutas y unidades de transporte público en tiempo real</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons/css/flag-icons.min.css">
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Pasajero | Rutas y unidades de transporte público en tiempo real">
+    <meta name="description"
+        content="Explora rutas, visualiza unidades por color o tipo y toma el control de tu trayecto. Pasajero organiza y mejora el transporte público informal en ciudades como Tijuana.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pasajeroapp.com/">
+    <meta property="og:title" content="Pasajero | Rutas y unidades de transporte público en tiempo real">
+    <meta property="og:description"
+        content="Explora rutas, visualiza unidades por color o tipo y toma el control de tu trayecto con Pasajero, la app que mejora el transporte informal urbano.">
+    <meta property="og:image" content="./docs/assets/images/favicon.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://pasajeroapp.com/">
+    <meta name="twitter:title" content="Pasajero | Rutas y unidades de transporte público en tiempo real">
+    <meta name="twitter:description"
+        content="Explora rutas, visualiza unidades por color o tipo y toma el control de tu trayecto con Pasajero, la app que mejora el transporte informal urbano.">
+    <meta name="twitter:image" content="./docs/assets/images/favicon.png">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://pasajeroapp.com/">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="./docs/assets/images/favicon.png" type="image/x-icon">
+
+    <!-- Styles & Scripts -->
+    <link rel="stylesheet" href="./docs/Style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+
+<body class="">
+
+    <div id="bottomToTopScroll"></div>
+    <div id="navbar"></div>
+
+
+    <section class="bg-white text-zinc-800">
+        <!-- Header -->
+        <div class="mx-auto max-w-5xl px-6 pt-14 pb-8">
+            <h1 class="text-3xl font-bold tracking-tight text-zinc-900 sm:text-5xl">Política de Privacidad</h1>
+            <p class="mt-4 text-sm text-zinc-500">
+                Vigente desde: <time datetime="2025-10-24">24 de octubre de 2025</time>
+            </p>
+            <p class="mt-4 max-w-3xl text-zinc-700">
+                Esta Política de Privacidad explica cómo <span class="font-semibold">Pasajero</span>
+                recopila, usa y comparte información cuando utilizas nuestro sitio web y servicios, incluidos los
+                programas y funciones de acceso anticipado/beta.
+            </p>
+        </div>
+
+        <!-- Content -->
+        <div class="mx-auto grid max-w-5xl grid-cols-1 gap-10 px-6 pb-16 md:grid-cols-[18rem_1fr]">
+            <!-- On this page -->
+            <nav aria-label="En esta página" class="md:sticky md:top-32 md:self-start">
+                <div class="rounded-2xl border border-zinc-200 bg-white p-5">
+                    <p class="mb-3 text-xs font-semibold uppercase tracking-wide text-zinc-500">En esta página</p>
+                    <ul class="space-y-2 text-sm">
+                        <li><a class="hover:underline" href="#scope">Alcance</a></li>
+                        <li><a class="hover:underline" href="#data-we-collect">Datos que recopilamos</a></li>
+                        <li><a class="hover:underline" href="#how-we-use">Cómo usamos los datos</a></li>
+                        <li><a class="hover:underline" href="#legal-bases">Bases legales</a></li>
+                        <li><a class="hover:underline" href="#sharing">Compartición y procesadores</a></li>
+                        <li><a class="hover:underline" href="#retention">Conservación</a></li>
+                        <li><a class="hover:underline" href="#cookies">Cookies</a></li>
+                        <li><a class="hover:underline" href="#your-rights">Tus derechos</a></li>
+                        <li><a class="hover:underline" href="#children">Menores</a></li>
+                        <li><a class="hover:underline" href="#security">Seguridad</a></li>
+                        <li><a class="hover:underline" href="#intl-transfers">Transferencias internacionales</a></li>
+                        <li><a class="hover:underline" href="#changes">Cambios</a></li>
+                        <li><a class="hover:underline" href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Policy body -->
+            <article class="space-y-10">
+                <section id="scope" class="space-y-3">
+                    <h2 class="text-xl font-semibold text-zinc-900">1) Alcance</h2>
+                    <p>
+                        Esta Política se aplica a nuestro sitio web, formularios de acceso anticipado, programas beta y
+                        funciones
+                        que te ayudan a encontrar rutas cercanas, identificar vehículos por tipo/color, recibir
+                        estimaciones de llegada y, opcionalmente, registrar tu viaje al abordar.
+                    </p>
+                </section>
+                <hr class="border-zinc-200">
+
+                <section id="data-we-collect" class="space-y-4">
+                    <h2 class="text-xl font-semibold text-zinc-900">2) Datos que recopilamos</h2>
+                    <div class="grid gap-6 md:grid-cols-2">
+                        <div>
+                            <h3 class="font-medium text-zinc-900">Información que proporcionas</h3>
+                            <ul class="mt-2 list-inside list-disc">
+                                <li><span class="font-medium">Correo electrónico</span> (para noticias, actualizaciones
+                                    y invitaciones beta)</li>
+                                <li><span class="font-medium">Nombre</span></li>
+                                <li><span class="font-medium">Colonia/zona donde vives</span> (ayuda a sugerir rutas
+                                    cercanas)</li>
+                                <li><span class="font-medium">Interés en beta</span> (si deseas participar en pruebas)
+                                </li>
+                                <li><span class="font-medium">Cómo nos encontraste</span> (fuente de referencia)</li>
+                                <li><span class="font-medium">Preferencias</span> (por ejemplo, rutas cercanas,
+                                    seguimiento en tiempo real, precios y horarios)</li>
+                                <li><span class="font-medium">Registro de viaje</span> (si tocas “Abordé”, registramos
+                                    ese evento)</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="font-medium text-zinc-900">Información recopilada automáticamente</h3>
+                            <ul class="mt-2 list-inside list-disc">
+                                <li><span class="font-medium">Datos del dispositivo y registros</span> (IP, navegador,
+                                    sistema operativo, registros de fallos, diagnósticos)</li>
+                                <li><span class="font-medium">Datos de uso</span> (páginas, clics, funciones utilizadas,
+                                    marcas de tiempo)</li>
+                                <li><span class="font-medium">Ubicación aproximada</span> a partir de la IP; <span
+                                        class="font-medium">ubicación precisa</span> solo si otorgas permiso</li>
+                                <li><span class="font-medium">Cookies y similares</span> para funciones esenciales,
+                                    analíticas y (si se habilitan) marketing</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="text-sm text-zinc-600">Puedes optar por no proporcionar ciertos datos, pero algunas
+                        funciones pueden no funcionar correctamente.</p>
+                </section>
+                <hr class="border-zinc-200">
+
+                <section id="how-we-use" class="space-y-3">
+                    <h2 class="text-xl font-semibold text-zinc-900">3) Cómo usamos tu información</h2>
+                    <ul class="list-inside list-disc">
+                        <li>Proporcionar y mejorar funciones principales (descubrimiento de rutas, identificación de
+                            vehículos, tiempos estimados de llegada)</li>
+                        <li>Operar el registro de viaje opcional para mejorar la precisión de los datos</li>
+                        <li>Enviar noticias, actualizaciones del producto e invitaciones beta (puedes darte de baja en
+                            cualquier momento)</li>
+                        <li>Realizar análisis para comprender el uso y mejorar el rendimiento y la seguridad</li>
+                        <li>Detectar, prevenir y abordar problemas de seguridad o abuso</li>
+                        <li>Cumplir con obligaciones legales</li>
+                    </ul>
+                </section>
+                <hr class="border-zinc-200">
+
+                <section id="legal-bases" class="space-y-3">
+                    <h2 class="text-xl font-semibold text-zinc-900">4) Bases legales (EEE/Reino Unido)</h2>
+                    <ul class="list-inside list-disc">
+                        <li><span class="font-medium">Contrato/Servicio</span> – para ofrecer las funciones solicitadas
+                        </li>
+                        <li><span class="font-medium">Consentimiento</span> – para correos de marketing, ubicación
+                            precisa, cookies analíticas/de marketing</li>
+                        <li><span class="font-medium">Intereses legítimos</span> – para mejorar y proteger nuestros
+                            servicios</li>
+                        <li><span class="font-medium">Obligación legal</span> – cuando debemos conservar o compartir
+                            datos con autoridades</li>
+                    </ul>
+                </section>
+                <hr class="border-zinc-200">
+
+                <section id="sharing" class="space-y-3">
+                    <h2 class="text-xl font-semibold text-zinc-900">5) Compartición y proveedores de servicios</h2>
+                    <p>
+                        Usamos procesadores verificados para alojamiento, analítica, envío de correos y soporte. Solo
+                        procesan los datos siguiendo nuestras instrucciones
+                        y con las debidas garantías. Podemos compartir datos para cumplir con la ley, hacer cumplir
+                        nuestros términos o proteger la seguridad. No vendemos tu información personal.
+                    </p>
+                </section>
+                <hr class="border-zinc-200">
+
+                <section id="retention" class="space-y-3">
+                    <h2 class="text-xl font-semibold text-zinc-900">6) Conservación de datos</h2>
+                    <ul class="list-inside list-disc">
+                        <li>Datos de cuenta y contacto: se conservan mientras la cuenta esté activa y por un período
+                            razonable posterior</li>
+                        <li>Registro de viajes y telemetría: se conserva de forma identificable por un tiempo limitado y
+                            luego se agrega o anonimiza</li>
+                        <li>Registros y diagnósticos: normalmente 13 meses (a menos que se requiera más tiempo por
+                            motivos de seguridad o legales)</li>
+                    </ul>
+                </section>
+                <hr class="border-zinc-200">
+
+                <section id="cookies" class="space-y-3">
+                    <h2 class="text-xl font-semibold text-zinc-900">7) Cookies y tecnologías similares</h2>
+                    <p>
+                        Usamos cookies esenciales (obligatorias) y, si otorgas tu consentimiento, cookies analíticas y
+                        de marketing.
+                    </p>
+                    <div class="grid gap-6 md:grid-cols-3">
+                        <div>
+                            <h3 class="font-medium text-zinc-900">Esenciales</h3>
+                            <p class="text-zinc-700">Seguridad, balanceo de carga, funciones principales.</p>
+                        </div>
+                        <div>
+                            <h3 class="font-medium text-zinc-900">Analíticas (con consentimiento)</h3>
+                            <p class="text-zinc-700">Comprender el uso y mejorar la aplicación.</p>
+                        </div>
+                        <div>
+                            <h3 class="font-medium text-zinc-900">Marketing (con consentimiento)</h3>
+                            <p class="text-zinc-700">Medir campañas y promocionar funciones.</p>
+                        </div>
+                    </div>
+                </section>
+                <hr class="border-zinc-200">
+
+                <section id="your-rights" class="space-y-3">
+                    <h2 class="text-xl font-semibold text-zinc-900">8) Tus derechos</h2>
+                    <p>
+                        Según el lugar donde vivas, puedes tener derecho a acceder, corregir, eliminar o descargar tus
+                        datos; oponerte o restringir el procesamiento;
+                        y retirar tu consentimiento (por ejemplo, correos de marketing o cookies) en cualquier momento.
+                        Puedes darte de baja de los correos mediante el enlace incluido en cada mensaje.
+                        También puedes contactarnos para ejercer tus derechos o presentar una queja ante tu autoridad
+                        local.
+                    </p>
+                </section>
+                <hr class="border-zinc-200">
+
+                <section id="children" class="space-y-3">
+                    <h2 class="text-xl font-semibold text-zinc-900">9) Privacidad de menores</h2>
+                    <p>
+                        Nuestros servicios no están dirigidos a menores de 16 años (o la edad requerida por la ley
+                        local). Si crees que un menor ha proporcionado
+                        datos personales, contáctanos para eliminar esa información.
+                    </p>
+                </section>
+                <hr class="border-zinc-200">
+
+                <section id="security" class="space-y-3">
+                    <h2 class="text-xl font-semibold text-zinc-900">10) Seguridad</h2>
+                    <p>
+                        Utilizamos medidas técnicas y organizativas razonables para proteger tu información. Sin
+                        embargo, ningún método de transmisión o almacenamiento es 100% seguro.
+                    </p>
+                </section>
+                <hr class="border-zinc-200">
+
+                <section id="intl-transfers" class="space-y-3">
+                    <h2 class="text-xl font-semibold text-zinc-900">11) Transferencias internacionales de datos</h2>
+                    <p>
+                        Si los datos se transfieren a otros países, utilizamos las salvaguardas apropiadas (por ejemplo,
+                        Cláusulas Contractuales Tipo) según lo exija la ley.
+                    </p>
+                </section>
+                <hr class="border-zinc-200">
+
+                <section id="changes" class="space-y-3">
+                    <h2 class="text-xl font-semibold text-zinc-900">12) Cambios a esta política</h2>
+                    <p>
+                        Podemos actualizar esta Política periódicamente. Cambiaremos la fecha de “Vigente desde” arriba
+                        y, cuando corresponda, proporcionaremos un aviso adicional.
+                    </p>
+                </section>
+                <hr class="border-zinc-200">
+
+                <section id="contact" class="space-y-3">
+                    <h2 class="text-xl font-semibold text-zinc-900">13) Contáctanos</h2>
+                    <p>
+                        Responsable del tratamiento: <span class="font-medium">Pasajero App</span><br>
+                        Correo electrónico: <a href="mailto:privacy@pasajero.app"
+                            class="underline underline-offset-4 hover:opacity-80">privacy@pasajero.app</a><br>
+                    </p>
+                </section>
+
+                <p class="text-xs text-zinc-500">© 2025 Pasajero. Todos los derechos reservados.</p>
+            </article>
+        </div>
+    </section>
+
+
+    <div class="md:mt-16 mt-10" id="footer"></div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+    <script src="./docs/javascript/Navbar.js"></script>
+    <script src="./docs/javascript/Footer.js"></script>
+
+</body>
+
+</html>
